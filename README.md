@@ -115,16 +115,14 @@ venv\Scripts\activate  # Windows
 python MNT-DRIVE.py
 ```
 
-### Ejecutar desde el Ejecutable de Windows
-
-En el archivo `WIN-exe.zip` se encuentra el ejecutable compilado para Windows que incluye:
+### Ejecutar desde el Ejecutable
 
 - El programa compilado (`MNT-DRIVE.exe`)
 - Los archivos de configuración necesarios (`client_secrets.json` y `credentials.txt`)
 
 Para usar el ejecutable:
 
-1. Extrae el contenido de `WIN-exe.zip`
+1. Compila el programa con `pyinstaller --onefile --noconsole MNT-DRIVE.py`
 2. Asegúrate de que los archivos `client_secrets.json` y `credentials.txt` estén en el mismo directorio que el ejecutable
 3. Ejecuta `MNT-DRIVE.exe`
 
@@ -209,10 +207,4 @@ RaspApp/
 - El programa está configurado para trabajar con archivos grandes y carpetas complejas
 - Se recomienda tener una conexión estable a Internet para subidas grandes
 
-## Licencia
-
-Este proyecto es de uso interno para MNT (Monitoreo de Torres).
-
 ---
-
-**Desarrollado para el monitoreo y gestión de archivos de torres eléctricas y telecomunicaciones.**
