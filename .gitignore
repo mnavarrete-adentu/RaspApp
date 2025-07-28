@@ -1,0 +1,17 @@
+client_secrets.json
+credentials.txt
+venv/
+dist/
+build/
+*.spec
+*.pyc
+*.pyo
+*.pyd
+*.zip
+
+
+
+
+
+
+
